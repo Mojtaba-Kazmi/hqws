@@ -1,0 +1,21 @@
+{
+    "logo": {
+      "image": "https://res.cloudinary.com/dmrdlnzkm/image/upload/v1737897009/HQWS-Logo-web_mhb0ic.svg",
+      "width": "250",
+      "height": "80",
+      "alt": "HQWS Logo"
+    },
+    "contact": {
+      "email": "info@hqws.com.au",
+      "number": "+61 412 585 746"
+    },
+    "links": {
+      "legal": "Legal Disclaimers",
+      "findUs": "Find Us"
+    },
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    }
+  }

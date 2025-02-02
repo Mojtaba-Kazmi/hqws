@@ -1,0 +1,45 @@
+/* Default styles for mobile (default is for screens smaller than 769px) */
+
+.header {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0A6A56; 
+}
+
+.header p {
+  color: #333333;
+  font-size: 1rem;
+}
+
+/* Responsive Design for tablet and larger screens */
+@media (min-width: 769px) {
+  .header h2 {
+    font-size: 2rem !important; /* Slightly bigger font size for tablet */
+  }
+  .header p {
+    margin: 0rem 8rem 5rem 8rem;
+    color: #333333;
+    font-size: 1.4rem;
+  }
+}
+
+/* Responsive Design for large screens */
+@media (min-width: 1024px) {
+  .header h2 {
+    font-size: 2rem !important; /* Larger font size for big screens */
+    margin: 6rem 6rem 1rem 6rem;
+  }
+  .header p {
+    margin: 0rem 8rem 5rem 8rem;
+    color: #333333;
+    font-size: 1.4rem;
+  }
+}
