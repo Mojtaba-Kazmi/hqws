@@ -5,7 +5,7 @@ export const defaultMetadata = {
   openGraph: {
     title: "Walling & Rendering Experts in Adelaide | HQWS",
     description: "Professional walling, rendering, and texture coating solutions for residential and commercial properties in Adelaide. Get expert craftsmanship and lasting results.",
-    url: "https://hqws.com.au",
+    url: "https://www.hqws.com.au",
     images: [
       {
         url: "https://res.cloudinary.com/dmrdlnzkm/image/upload/v1737897009/HQWS-Logo-web_mhb0ic.svg",

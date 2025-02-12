@@ -5,6 +5,8 @@ import Header from "./shared/header/Header";
 import CallToActionButton from "./shared/cta/CTAButton";
 import ScrollToTop from "./shared/scrolltop/ScrollTo";
 import PageLoader from "./components/loader/PageLoader";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = defaultMetadata;
 
@@ -21,6 +23,8 @@ export default function RootLayout({ children }) {
           <CallToActionButton />
           <ScrollToTop />
         </PageLoader>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

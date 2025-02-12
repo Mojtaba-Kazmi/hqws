@@ -10,7 +10,7 @@ const SuccessModal = ({ open, onClose }) => {
         <div className={styles.animationContainer}>
           <img
             className={styles.successAnimation}
-            src="/assets/images/home/anim-tick.gif"
+            src="/assets/anim-tick.gif"
             alt="Success Tick Animation"
           />
         </div>

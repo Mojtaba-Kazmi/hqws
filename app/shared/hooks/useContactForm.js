@@ -14,8 +14,6 @@ const useContactForm = () => {
       location: "",
       email: "",
       contactNumber: "",
-      website: "",
-      business: "",
       services: [],
       message: "",
     },
